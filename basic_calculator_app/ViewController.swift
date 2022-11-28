@@ -23,6 +23,7 @@ class ViewController: UIViewController {
             if let twoNumber = Int(tfTwo.text!) {
                 let topla = oneNumber+twoNumber
                 resultLabel.text = String(topla)
+                print("DENEME COMMİT")
             }
         }
         
@@ -36,6 +37,7 @@ class ViewController: UIViewController {
         if let oneNumber = Int(tfOne.text!) {
             if let twoNumber = Int(tfTwo.text!) {
                 let cikar = oneNumber-twoNumber
+                
                 resultLabel.text = String(cikar)
             }
         }
